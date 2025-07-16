@@ -3,6 +3,9 @@
 <br />
 
 <p align="center">
+  <p>
+    Please support the original author, as they came up with a LOT of good stuff.
+  </p>
 <a href="https://liberapay.com/K3V1991" alt="LiberaPay"><img src="https://img.shields.io/badge/Liberapay-F6C915?style=for-the-badge&logo=liberapay&logoColor=black" /></a>
 <a href="https://www.buymeacoffee.com/k3v1991" alt="BuyMeACoffee"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a>
 <a href="https://ko-fi.com/k3v1991" alt="Ko-fi"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
@@ -50,3 +53,66 @@ Preference | Value to change |
 | toolkit.telemetry.unified | false |
 | toolkit.telemetry.unifiedIsOptIn | false |
 | toolkit.telemetry.updatePing.enabled | false |
+
+## Extended attributes to set to false
+Preference | Value to change |
+| --- | --- |
+| experiments.activeExperiment | false |
+| experiments.enabled | false |
+| experiments.supported | false |
+| network.allow-experiments | false |
+
+## Empty the values in the following entries
+Preference  |
+| --- |
+| app.normandy.api_url |
+| breakpad.reportURL |
+| browser.contentblocking.report.manage_devices.url |
+| browser.contentblocking.report.vpn-promo.url |
+| browser.contentblocking.report.vpn.url |
+| browser.ml.modelHubRootUrl |
+| browser.newtabpage.activity-stream.discoverystream.contextualContent.fakespot.ctaUrl |
+| browser.newtabpage.activity-stream.discoverystream.ohttp.relayURL |
+| browser.partnerlink.attributionURL |
+| browser.privatebrowsing.vpnpromourl |
+| browser.region.network.url |
+| browser.safebrowsing.provider.mozilla.gethashURL |
+| browser.urlbar.merino.endpointURL |
+| geo.provider.network.url |
+| media.gmp-manager.chromium-update-url |
+| signon.firefoxRelay.base_url |
+| signon.firefoxRelay.manage_url |
+| signon.management.page.breachAlertUrl |
+| toolkit.shopping.ohttpConfigURL |
+| toolkit.telemetry.dap.helper.url |
+| toolkit.telemetry.dap.leader.url |
+| webextensions.storage.sync.serverURL |
+| identity.sync.tokenserver.uri |
+| toolkit.telemetry.server |
+| webextensions.storage.sync.serverURL |
+
+## Servers to block
+Blocking these will COMPLETELY block Mozilla services. Use at your own descretion.
+
+    detectportal.firefox.com
+    incoming.telemetry.mozilla.org
+    tiles.services.mozilla.org
+    services.addons.mozilla.org
+    activity-stream-icons.services.mozilla.com
+    aus5.mozilla.org
+    blocklists.settings.services.mozilla.com
+    ciscobinary.openh264.org
+    content-signature.cdn.mozilla.net
+    discovery.addons.mozilla.org
+    download.cdn.mozilla.net
+    firefox.settings.services.mozilla.com
+    getpocket.cdn.mozilla.net
+    img-getpocket.cdn.mozilla.net
+    location.services.mozilla.com
+    normandy.cdn.mozilla.net
+    normandy.services.mozilla.com
+    push.services.mozilla.com
+    snippets.cdn.mozilla.net
+    shavar.services.mozilla.com
+    versioncheck-bg.addons.mozilla.org
+
